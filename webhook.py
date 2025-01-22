@@ -47,14 +47,7 @@ def gerar_mensagem(produto):
         return """
         Olá!
 
-        Obrigado por adquirir o D-Macro Vitalício. Aqui está o link para baixar o seu macro:
-        https://www.mediafire.com/file/example/D-MACRO_vitalicio.rar/file
-
-        Tutorial de instalação:
-        https://www.youtube.com/watch?v=DhTZsmUc9F8
-
-        Caso o Chrome esteja bloqueando o download:
-        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+        Em alguns minutos o email com os links estarão chegando!
 
         Qualquer dúvida, entre em contato conosco!
         """
