@@ -21,7 +21,7 @@ def gerar_mensagem(produto):
         https://www.mediafire.com/file/id1tny1nusg3wzf/D-MACRO_22_1.rar/file
 
         Tutorial de instalação:
-        https://www.youtube.com/watch?v=DhTZsmUc9F8
+        https://www.youtube.com/watch?v=9tQJUTVJrEM
 
         Caso o Chrome esteja bloqueando o download:
         https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
@@ -36,7 +36,7 @@ def gerar_mensagem(produto):
         https://www.mediafire.com/file/example/D-MACRO_3_meses.rar/file
 
         Tutorial de instalação:
-        https://www.youtube.com/watch?v=DhTZsmUc9F8
+        https://www.youtube.com/watch?v=9tQJUTVJrEM
 
         Caso o Chrome esteja bloqueando o download:
         https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
