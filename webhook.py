@@ -20,7 +20,7 @@ def enviar_email(destinatario):
     Obrigado pela sua compra. Aqui estão as informações para utilizar o seu produto:
 
     **Link para baixar o macro:**
-    https://www.mediafire.com/file/gp2syv5rkjnzx07/D-Macro21.rar/file
+    https://www.mediafire.com/file/id1tny1nusg3wzf/D-MACRO_22_1.rar/file
 
     **Tutorial:**
     https://www.youtube.com/watch?v=DhTZsmUc9F8
