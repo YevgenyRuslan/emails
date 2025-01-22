@@ -11,27 +11,100 @@ SMTP_PORT = 587
 EMAIL_USER = "antifarmador2021@gmail.com"  # Substitua pelo seu e-mail
 EMAIL_PASS = "ducc lqrq iwuu yqzr"  # Substitua pela sua senha ou App Password
 
-# Função para enviar o produto por e-mail
-def enviar_email(destinatario):
-    # Mensagem personalizada
-    mensagem = """
-    Olá!
+# Função para gerar a mensagem com base no produto comprado
+def gerar_mensagem(produto):
+    if produto == "D-macro_1 mês":
+        return """
+        Olá!
 
-    Obrigado pela sua compra. Aqui estão as informações para utilizar o seu produto:
+        Obrigado por adquirir o D-Macro (1 mês). Aqui está o link para baixar o seu macro:
+        https://www.mediafire.com/file/id1tny1nusg3wzf/D-MACRO_22_1.rar/file
 
-    **Link para baixar o macro:**
-    https://www.mediafire.com/file/id1tny1nusg3wzf/D-MACRO_22_1.rar/file
+        Tutorial de instalação:
+        https://www.youtube.com/watch?v=DhTZsmUc9F8
 
-    **Tutorial:**
-    https://www.youtube.com/watch?v=DhTZsmUc9F8
+        Caso o Chrome esteja bloqueando o download:
+        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
 
-    **Se o Chrome estiver bloqueando o download:**
-    https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+        Qualquer dúvida, entre em contato conosco!
+        """
+    elif produto == "D-macro_3_meses":
+        return """
+        Olá!
 
-    Caso tenha dúvidas, entre em contato conosco. Aproveite!
-    """
+        Obrigado por adquirir o D-Macro (3 meses). Aqui está o link para baixar o seu macro:
+        https://www.mediafire.com/file/example/D-MACRO_3_meses.rar/file
+
+        Tutorial de instalação:
+        https://www.youtube.com/watch?v=DhTZsmUc9F8
+
+        Caso o Chrome esteja bloqueando o download:
+        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+
+        Qualquer dúvida, entre em contato conosco!
+        """
+    elif produto == "D-macro_vitalicio":
+        return """
+        Olá!
+
+        Obrigado por adquirir o D-Macro Vitalício. Aqui está o link para baixar o seu macro:
+        https://www.mediafire.com/file/example/D-MACRO_vitalicio.rar/file
+
+        Tutorial de instalação:
+        https://www.youtube.com/watch?v=DhTZsmUc9F8
+
+        Caso o Chrome esteja bloqueando o download:
+        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+
+        Qualquer dúvida, entre em contato conosco!
+        """
+    elif produto == "D-trigger_1mês":
+        return """
+        Olá!
+
+        Obrigado por adquirir o D-Trigger (1 mês). Aqui está o link para baixar o seu trigger:
+        https://www.mediafire.com/file/example/D-TRIGGER_1_mes.rar/file
+
+        Tutorial de instalação:
+        https://www.youtube.com/watch?v=DhTZsmUc9F8
+
+        Caso o Chrome esteja bloqueando o download:
+        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+
+        Qualquer dúvida, entre em contato conosco!
+        """
+    elif produto == "D-trigger_vitalicio":
+        return """
+        Olá!
+
+        Obrigado por adquirir o D-Trigger Vitalício. Aqui está o link para baixar o seu trigger:
+        https://www.mediafire.com/file/example/D-TRIGGER_vitalicio.rar/file
+
+        Tutorial de instalação:
+        https://www.youtube.com/watch?v=DhTZsmUc9F8
+
+        Caso o Chrome esteja bloqueando o download:
+        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+
+        Qualquer dúvida, entre em contato conosco!
+        """
+    else:
+        return """
+        Olá!
+
+        Obrigado pela sua compra. Estamos processando o seu pedido e entraremos em contato em breve.
+
+        Qualquer dúvida, entre em contato conosco!
+        """
+
+# Função para enviar o e-mail
+def enviar_email(destinatario, produto):
+    # Gerar mensagem com base no produto
+    mensagem = gerar_mensagem(produto)
+
+    # Configurar e enviar o e-mail
     msg = MIMEText(mensagem, "plain")
-    msg["Subject"] = "Seu Produto Digital: Macro para CS2"
+    msg["Subject"] = f"Detalhes do Produto: {produto}"
     msg["From"] = EMAIL_USER
     msg["To"] = destinatario
 
@@ -53,7 +126,8 @@ def webhook():
     # Verifica se o status do pagamento é "paid"
     if data["data"]["status"] == "paid":
         email = data["data"]["customer"]["email"]  # E-mail do cliente
-        enviar_email(email)  # Envia o e-mail com o produto
+        produto = data["data"]["items"][0]["title"]  # Nome do produto comprado
+        enviar_email(email, produto)  # Envia o e-mail personalizado
 
     return jsonify({"status": "success"}), 200
 
