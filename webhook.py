@@ -56,7 +56,7 @@ def gerar_mensagem(produto):
         Olá!
 
         Obrigado por adquirir o D-Trigger (1 mês). Aqui está o link para baixar o seu trigger:
-        https://www.mediafire.com/file/example/D-TRIGGER_1_mes.rar/file
+        https://www.mediafire.com/file/hm3bdzn9561qz3h/D-triggerbot.rar/file
 
         Tutorial de instalação:
         https://www.youtube.com/watch?v=DhTZsmUc9F8
@@ -71,7 +71,7 @@ def gerar_mensagem(produto):
         Olá!
 
         Obrigado por adquirir o D-Trigger Vitalício. Aqui está o link para baixar o seu trigger:
-        https://www.mediafire.com/file/example/D-TRIGGER_vitalicio.rar/file
+        https://www.mediafire.com/file/hm3bdzn9561qz3h/D-triggerbot.rar/file
 
         Tutorial de instalação:
         https://www.youtube.com/watch?v=DhTZsmUc9F8
