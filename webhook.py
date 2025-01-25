@@ -51,12 +51,12 @@ def gerar_mensagem(produto):
 
         Qualquer dúvida, entre em contato conosco!
         """
-    elif produto == "D-trigger_1mês":
+    elif produto == "d-trigger_1mes":
         return """
         Olá!
 
         Obrigado por adquirir o D-Trigger (1 mês). Aqui está o link para baixar o seu trigger:
-        https://www.mediafire.com/file/56vwg382mxd2yi1/Dtrigger-V.2.rar/file
+        https://www.mediafire.com/file/i7p6tuupl7ph8u0/D-triggerV2.rar/file
 
         Tutorial de instalação:
         https://www.youtube.com/watch?v=DhTZsmUc9F8
@@ -71,7 +71,7 @@ def gerar_mensagem(produto):
         Olá!
 
         Obrigado por adquirir o D-Trigger Vitalício. Aqui está o link para baixar o seu trigger:
-        https://www.mediafire.com/file/hm3bdzn9561qz3h/D-triggerbot.rar/file
+        https://www.mediafire.com/file/56vwg382mxd2yi1/Dtrigger-V.2.rar/file
 
         Tutorial de instalação:
         https://www.youtube.com/watch?v=DhTZsmUc9F8
