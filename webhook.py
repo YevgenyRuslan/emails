@@ -18,10 +18,10 @@ def gerar_mensagem(produto):
         Olá!
 
         Obrigado por adquirir o D-Macro (1 mês). Aqui está o link para baixar o seu macro:
-         https://www.mediafire.com/file/58o12dqrpreb7li/D_macro2601.rar/file
+         https://www.mediafire.com/file/md84u3xr8eyiusr/D-MACROV3_28.rar/file
 
         Tutorial de instalação:
-        https://www.youtube.com/watch?v=9tQJUTVJrEM
+        https://www.youtube.com/watch?v=Am37V2oQR8w
 
         Caso o Chrome esteja bloqueando o download:
         https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
@@ -36,10 +36,13 @@ def gerar_mensagem(produto):
         https://www.mediafire.com/file/example/D-MACRO_3_meses.rar/file
 
         Tutorial de instalação:
-        https://www.youtube.com/watch?v=9tQJUTVJrEM
+        https://www.youtube.com/watch?v=Am37V2oQR8w
 
         Caso o Chrome esteja bloqueando o download:
         https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+
+        Caso o antivirus esteja bloqueado o macro
+        https://www.youtube.com/watch?v=T3uYbgkJGeM
 
         Qualquer dúvida, entre em contato conosco!
         """
@@ -59,10 +62,13 @@ def gerar_mensagem(produto):
         https://www.mediafire.com/file/i7p6tuupl7ph8u0/D-triggerV2.rar/file
 
         Tutorial de instalação:
-        https://www.youtube.com/watch?v=DhTZsmUc9F8
+        https://www.youtube.com/watch?v=keyhQ393eKE
 
         Caso o Chrome esteja bloqueando o download:
         https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+
+        Caso o antivirus esteja bloqueado o macro
+        https://www.youtube.com/watch?v=T3uYbgkJGeM
 
         Qualquer dúvida, entre em contato conosco!
         """
@@ -74,7 +80,7 @@ def gerar_mensagem(produto):
         https://www.mediafire.com/file/56vwg382mxd2yi1/Dtrigger-V.2.rar/file
 
         Tutorial de instalação:
-        https://www.youtube.com/watch?v=DhTZsmUc9F8
+        https://www.youtube.com/watch?v=keyhQ393eKE
 
         Caso o Chrome esteja bloqueando o download:
         https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
