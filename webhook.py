@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Configuração de e-mail
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_USER = "antifarmador2021@gmail.com"  # Substitua pelo seu e-mail
+EMAIL_USER = "antifarmador2021@gmail.com"  # Seu e-mail
 EMAIL_PASS = "ducc lqrq iwuu yqzr"  # Substitua pela sua senha ou App Password
 
 # Função para gerar a mensagem com base no produto comprado
@@ -18,13 +18,13 @@ def gerar_mensagem(produto):
         Olá!
 
         Obrigado por adquirir o D-Macro (1 mês). Aqui está o link para baixar o seu macro:
-         https://www.mediafire.com/file/leq8z5tibprvs5e/dmacroV3_0502.rar/file
+        https://www.mediafire.com/file/leq8z5tibprvs5e/dmacroV3_0502.rar/file
 
         Tutorial de instalação:
         https://www.youtube.com/watch?v=Am37V2oQR8w
 
         Caso o Chrome esteja bloqueando o download:
-        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+        https://www.youtube.com/watch?v=bZc-u40TlLs
 
         Qualquer dúvida, entre em contato conosco!
         """
@@ -39,9 +39,9 @@ def gerar_mensagem(produto):
         https://www.youtube.com/watch?v=Am37V2oQR8w
 
         Caso o Chrome esteja bloqueando o download:
-        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+        https://www.youtube.com/watch?v=bZc-u40TlLs
 
-        Caso o antivirus esteja bloqueado o macro
+        Caso o antivirus esteja bloqueando o macro:
         https://www.youtube.com/watch?v=T3uYbgkJGeM
 
         Qualquer dúvida, entre em contato conosco!
@@ -65,29 +65,29 @@ def gerar_mensagem(produto):
         https://www.youtube.com/watch?v=keyhQ393eKE
 
         Caso o Chrome esteja bloqueando o download:
-        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+        https://www.youtube.com/watch?v=bZc-u40TlLs
 
-        Caso o antivirus esteja bloqueado o macro
+        Caso o antivirus esteja bloqueando o macro:
         https://www.youtube.com/watch?v=T3uYbgkJGeM
 
         Qualquer dúvida, entre em contato conosco!
         """
-        elif produto == "WALL":
+    elif produto == "WALL":  # Aqui estava com erro de indentação
         return """
         Olá!
 
         Obrigado por adquirir o WALL (1 mês). Aqui está o link para baixar o seu trigger:
         https://www.mediafire.com/file/nd21qjkrhzeorgt/wall_04-02.rar/file
 
-        tutorial:
+        Tutorial:
         https://www.youtube.com/watch?v=t8Wue0a29XE&t=1s
 
-        O JOGO ATUALIZA TODA SEMANA, ENTAO SE O WALL PARAR, CHAMA NO WHATSAPP PRA PEGAR AS ATUALIZAÇÕES DO WALL.
-        
-        Caso o Chrome esteja bloqueando o download:
-        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+        O JOGO ATUALIZA TODA SEMANA, ENTÃO SE O WALL PARAR, CHAME NO WHATSAPP PARA PEGAR AS ATUALIZAÇÕES DO WALL.
 
-        Caso o antivirus esteja bloqueado o macro
+        Caso o Chrome esteja bloqueando o download:
+        https://www.youtube.com/watch?v=bZc-u40TlLs
+
+        Caso o antivirus esteja bloqueando o macro:
         https://www.youtube.com/watch?v=T3uYbgkJGeM
 
         Qualquer dúvida, entre em contato conosco!
@@ -103,7 +103,7 @@ def gerar_mensagem(produto):
         https://www.youtube.com/watch?v=keyhQ393eKE
 
         Caso o Chrome esteja bloqueando o download:
-        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+        https://www.youtube.com/watch?v=bZc-u40TlLs
 
         Qualquer dúvida, entre em contato conosco!
         """
