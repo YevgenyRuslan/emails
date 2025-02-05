@@ -72,6 +72,26 @@ def gerar_mensagem(produto):
 
         Qualquer dúvida, entre em contato conosco!
         """
+        elif produto == "WALL":
+        return """
+        Olá!
+
+        Obrigado por adquirir o WALL (1 mês). Aqui está o link para baixar o seu trigger:
+        https://www.mediafire.com/file/nd21qjkrhzeorgt/wall_04-02.rar/file
+
+        tutorial:
+        https://www.youtube.com/watch?v=t8Wue0a29XE&t=1s
+
+        O JOGO ATUALIZA TODA SEMANA, ENTAO SE O WALL PARAR, CHAMA NO WHATSAPP PRA PEGAR AS ATUALIZAÇÕES DO WALL.
+        
+        Caso o Chrome esteja bloqueando o download:
+        https://www.youtube.com/watch?v=bZc-u40TlLs&pp=ygUaY2hyb21lIGJsb3F1ZWFuZG8gZG93bmxvYWQ%3D
+
+        Caso o antivirus esteja bloqueado o macro
+        https://www.youtube.com/watch?v=T3uYbgkJGeM
+
+        Qualquer dúvida, entre em contato conosco!
+        """
     elif produto == "D-trigger_vitalicio":
         return """
         Olá!
