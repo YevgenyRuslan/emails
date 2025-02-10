@@ -80,8 +80,8 @@ def gerar_mensagem(produto):
         https://www.mediafire.com/file/nd21qjkrhzeorgt/wall_04-02.rar/file
 
         Tutorial:
-        https://www.youtube.com/watch?v=t8Wue0a29XE&t=1s
-
+        https://www.youtube.com/watch?v=bw1JIuvgnD8
+        
         O JOGO ATUALIZA TODA SEMANA, ENTÃO SE O WALL PARAR, CHAME NO WHATSAPP PARA PEGAR AS ATUALIZAÇÕES DO WALL.
 
         Caso o Chrome esteja bloqueando o download:
