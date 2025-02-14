@@ -77,7 +77,7 @@ def gerar_mensagem(produto):
         Olá!
 
         Obrigado por adquirir o WALL (1 mês). Aqui está o link para baixar o seu trigger:
-        https://www.mediafire.com/file/nd21qjkrhzeorgt/wall_04-02.rar/file
+        https://www.mediafire.com/file/3a1jbwhcwlalvtv/wall_14-02.rar/file
 
         Tutorial:
         https://www.youtube.com/watch?v=bw1JIuvgnD8
