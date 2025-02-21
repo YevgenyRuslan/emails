@@ -18,7 +18,7 @@ def gerar_mensagem(produto):
         Olá!
 
         Obrigado por adquirir o D-Macro (1 mês). Aqui está o link para baixar o seu macro:
-        https://www.mediafire.com/file/l557df15dw3cwxl/D-MACRO_V3_2002.rar/file
+        https://mega.nz/file/YEpxlTTb#QwQlBxjtFrcXA9_eGHulP3pua0NEKMDtbN9dg-O03rw
 
         Tutorial de instalação:
         https://www.youtube.com/watch?v=Am37V2oQR8w
